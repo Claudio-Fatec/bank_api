@@ -18,7 +18,7 @@ const pool = new Pool({
 
 app.get("/", (req, res) => {
   res.json({
-    mensagem: "Api bank funcionando...",
+    mensagem: "Api bank funcionando.",
     rotas: [
       "GET /teste-banco",
       "GET /transferencias",
